@@ -1,0 +1,70 @@
+/* абсолютные - px, mm,cm ,pt, pc  */
+/* относительные - %, em, rem, vh, vw */
+.px {
+    background-color: red;
+    width: 500px;
+}
+.precent {
+    background-color: blue;
+    width: 50%;
+}
+.parent {
+    margin: auto;
+    height: 100px;
+    width: 60%;
+    border: 1px solid red;
+}
+.child {
+    height: 100px;
+    width: 50%;
+    background-color: black;
+}
+
+
+/* em
+/* 1 em = 16px */
+
+/* em */
+/* 1em = 16px */
+/* .parent {
+    font-size: 20px;
+}
+/* 1em = 20px */
+/* 2em = 40px */
+/* 1em = 40px */
+/* .childEm {
+    font-size: 0.5em;
+    padding: 2em 1em; */
+/* } 
+/* rem - root em  */
+/* 1rem = 16px */
+/* html {
+    font-size: 20px;
+/* } */
+/* :root {
+    font-size: 30px;
+}
+.parentRem {
+    font-size: 20px;
+}
+.childRem {
+    font-size: 2rem; 
+}  */
+
+
+/* vh vw */
+
+/* vh vw */
+/* 1vh = 1% от высоты окна браузера */
+/* 1vw = 1% от ширины окна браузера */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    background-color: blue;
+    width: 98vw;
+    height: 100vh; */
+/* } */
+/* 100% + 12px */
